@@ -66,7 +66,7 @@ img {
 .btn-primary:hover {
     background-color: #1d4ed8;
 }
-
+/* ===== Estilos generales de la página ===== */
 .header {
     position: sticky;
     top: 0;
