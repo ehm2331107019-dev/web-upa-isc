@@ -33,7 +33,7 @@ img {
 .container {
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 0 1.25rem;
+    padding: 0 1.25rem; /*contenedor*/
 }
 
 .section {
