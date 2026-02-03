@@ -20,15 +20,40 @@
 
 <h1>Elementos Básicos HTML</h1>
 
-<!-- Texto -->
+<!-- TEXTO -->
+<div class="bloque">
 <h2>Texto</h2>
 <p>Ejemplo de párrafo con <b>negrita</b> y <i>cursiva</i>.</p>
 
+<h3>Encabezados</h3>
+<h1>Encabezado H1</h1>
+<h2>Encabezado H2</h2>
+<h3>Encabezado H3</h3>
+<h4>Encabezado H4</h4>
+<h5>Encabezado H5</h5>
+<h6>Encabezado H6</h6>
+</div>
+
 <!-- VINCULOS -->
+<div class="bloque">
 <h2>Vínculos</h2>
-<a href="https://www.google.com" target="_blank">Ir a Google</a>
+
+<p>
+<a href="https://www.google.com" target="_blank">
+Ir a Google (enlace externo)
+</a>
+</p>
+
+<p>
+<a href="index.html">
+Ir al Inicio (enlace interno)
+</a>
+</p>
+
+</div>
 
 <!-- LISTAS -->
+<div class="bloque">
 <h2>Listas</h2>
 
 <h3>Lista ordenada</h3>
@@ -38,51 +63,73 @@
 <li>JavaScript</li>
 </ol>
 
-<h3>Lista no ordenada</h3>
+<h3>Lista desordenada</h3>
 <ul>
-<li>Frontend</li>
-<li>Backend</li>
-<li>Base de datos</li>
+<li>Diseño Web</li>
+<li>Programación</li>
+<li>Testing</li>
 </ul>
 
-<!-- OBJETOS -->
-<h2>Objeto embebido</h2>
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY"
-allowfullscreen></iframe>
+</div>
+
+<!-- OBJETO EMBEBIDO -->
+<div class="bloque">
+<h2>Objeto Embebido</h2>
+
+<div class="iframe-container">
+<iframe width="100%" height="315"
+src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+title="Video HTML"
+allowfullscreen>
+</iframe>
+</div>
+
+</div>
 
 <!-- IMAGEN -->
+<div class="bloque">
 <h2>Imagen</h2>
-<img src="assets/images/about.jpg" alt="Imagen ejemplo">
+
+<img src="assets/images/about.jpg"
+alt="Equipo de trabajo"
+class="img-ejemplo">
+
+</div>
 
 <!-- FORMULARIO -->
+<div class="bloque">
 <h2>Formulario</h2>
 
-<form class="form">
+<form class="form-elementos">
 
 <label>Nombre</label>
-<input type="text" required>
+<input type="text" placeholder="Ingresa tu nombre" required>
 
-<label>Correo</label>
-<input type="email" required>
+<label>Email</label>
+<input type="email" placeholder="Ingresa tu correo" required>
+
+<label>Mensaje</label>
+<textarea rows="4" placeholder="Escribe tu mensaje"></textarea>
 
 <label>Carrera</label>
 <select>
 <option>ISC</option>
 <option>ITI</option>
 <option>LTF</option>
+<option>IRT</option>
 </select>
 
-<label>Mensaje</label>
-<textarea></textarea>
-
-<button class="btn btn-primary">Enviar</button>
+<button type="submit">Enviar</button>
 
 </form>
 
+</div>
+
 <br><br>
 
-<a href="index.html" class="btn btn-primary">Volver al inicio</a>
+<a href="index.html" class="btn btn-primary">
+Volver al inicio
+</a>
 
 </div>
 </main>
