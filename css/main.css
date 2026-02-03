@@ -320,3 +320,103 @@ img {
 .tabla tbody tr:nth-child(even) {
     background-color: var(--color-light);
 }
+/* ===== ESTILOS PARA PAGINA ELEMENTOS ===== */
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+/* Bloques de contenido */
+.bloque {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: var(--radius);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.bloque:hover {
+    transform: translateY(-5px);
+}
+
+/* Titulos secundarios */
+.bloque h2 {
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+/* Texto */
+.bloque p {
+    color: var(--color-gray);
+    margin-bottom: 1rem;
+}
+
+/* Listas */
+.bloque ul,
+.bloque ol {
+    padding-left: 1.5rem;
+    color: var(--color-dark);
+}
+
+/* Links */
+.bloque a {
+    color: var(--color-primary);
+    font-weight: 500;
+}
+
+.bloque a:hover {
+    text-decoration: underline;
+}
+
+/* Imagen ejemplo */
+.img-ejemplo {
+    max-width: 300px;
+    margin-top: 1rem;
+}
+
+/* iframe */
+.iframe-container {
+    margin-top: 1rem;
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* Formulario elementos */
+.form-elementos {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.form-elementos label {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.form-elementos input,
+.form-elementos textarea,
+.form-elementos select {
+    padding: 0.7rem;
+    border-radius: var(--radius);
+    border: 1px solid #cbd5e1;
+    font-family: inherit;
+}
+
+.form-elementos button {
+    background: var(--color-primary);
+    color: white;
+    border: none;
+    padding: 0.7rem;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.form-elementos button:hover {
+    background: #1d4ed8;
+}
